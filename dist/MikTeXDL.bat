@@ -1,0 +1,1 @@
+powershell -Command  Invoke-WebRequest -uri "https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-22.10-x64.exe" -OutFile "$env:userprofile\Downloads\MikTeXInstall.exe"
